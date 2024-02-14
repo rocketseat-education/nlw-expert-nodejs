@@ -15,6 +15,7 @@ A real-time voting system where users can create a poll and other users can cast
 - Install dependencies (`npm install`);
 - Setup PostgreSQL and Redis (`docker compose up -d`);
 - Copy `.env.example` file (`cp .env.example .env`);
+- Install database migrations (`npx prisma migrate dev`)
 - Run application (`npm run dev`);
 - Test it! (I personally recommend testing with [Hoppscotch](https://hoppscotch.io/)).
 
